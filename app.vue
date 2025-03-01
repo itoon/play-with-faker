@@ -100,12 +100,22 @@ const form = ref({
 
 const items = ref([
   {
-    name: faker.commerce.productName(),
+    name: faker.food.meat(),
     quantity: faker.number.int({ min: 1, max: 10 }),
     price: faker.commerce.price({ min: 1, max: 100 }),
   },
   {
-    name: faker.commerce.productName(),
+    name: faker.food.meat(),
+    quantity: faker.number.int({ min: 1, max: 10 }),
+    price: faker.commerce.price({ min: 1, max: 100 }),
+  },
+  {
+    name: faker.food.meat(),
+    quantity: faker.number.int({ min: 1, max: 10 }),
+    price: faker.commerce.price({ min: 1, max: 100 }),
+  },
+  {
+    name: faker.food.meat(),
     quantity: faker.number.int({ min: 1, max: 10 }),
     price: faker.commerce.price({ min: 1, max: 100 }),
   },
