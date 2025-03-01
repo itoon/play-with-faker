@@ -1,7 +1,6 @@
 <template>
   <div class="p-6">
     <h1 class="text-2xl font-bold mb-6">Hello Nuxt and Faker</h1>
-
     <div class="overflow-x-auto rounded-lg shadow">
       <table class="min-w-full divide-y divide-gray-200">
         <thead class="bg-gray-50">
@@ -45,5 +44,7 @@ const form = ref({
   country: faker.location.country(),
   province: faker.location.state(),
   city: faker.location.city(),
+  zipCode: faker.location.zipCode(),
+  streetAddress: faker.location.streetAddress(),
 });
 </script>
